@@ -1,0 +1,269 @@
+@font-face {
+    font-family: 'SF Mono Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF Mono Regular'), url('./fonts/SFMonoRegular.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'SF Mono Regular Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF Mono Regular Italic'), url('./fonts/SFMonoRegularItalic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'SF Mono Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF Mono Light'), url('./fonts/SFMonoLight.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'SF Mono Light Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF Mono Light Italic'), url('./fonts/SFMonoLightItalic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'SF Mono Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF Mono Medium'), url('./fonts/SFMonoMedium.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'SF Mono Medium Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF Mono Medium Italic'), url('./fonts/SFMonoMediumItalic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'SF Mono Semibold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF Mono Semibold'), url('./fonts/SFMonoSemibold.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'SF Mono Semibold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF Mono Semibold Italic'), url('./fonts/SFMonoSemiboldItalic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'SF Mono Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF Mono Bold'), url('./fonts/SFMonoBold.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'SF Mono Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF Mono Bold Italic'), url('./fonts/SFMonoBoldItalic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'SF Mono Heavy';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF Mono Heavy'), url('./fonts/SFMonoHeavy.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'SF Mono Heavy Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF Mono Heavy Italic'), url('./fonts/SFMonoHeavyItalic.woff') format('woff');
+    }
+.header{
+    
+    width: 395.83px;
+    height: 37.53px;
+    
+    }
+    .margincustomwidth{
+        margin-right: 0px;
+        margin-left:auto;
+    }
+
+    .fontclass{
+    
+    font-family: 'New York Small',sans-serif;
+    font-style: normal;
+    line-height: 170%;
+    text-align: center;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+       }
+
+ 
+.extrafonts
+       {
+         
+font-family: 'New York Extra Large';        
+font-style: normal;
+font-weight: bold;
+text-align: center;
+font-size: 54px;
+line-height: 54px;
+width: 858px;
+height: 162px;
+margin: auto;
+padding-top: 50px;
+ 
+}
+
+       .extrafonts2{
+    
+        text-align: center;
+            
+        font-weight: 400;
+            
+        font-family: 'SF Mono Light';
+            
+        font-size: 20px;
+            
+        line-height: 34px;
+            
+        margin: auto;
+            
+        width: 626px;
+            
+        padding-top: 100px;
+       }
+ 
+       .mainimage{
+             background-image: url(../assets/main.png);
+             background-repeat: no-repeat;
+             background-size: cover;
+             height: 900px;
+              
+       }
+      
+
+      @font-face {
+        font-family: 'New York Small' ;
+        src: url(./fonts/NewYorkSmallSemibold.ttf);
+    }  
+
+    @font-face {
+        font-family: 'New York Extra Large';
+        src: url(./fonts/NewYorkExtraLargeRegular.ttf);
+    }
+    
+    .navbar-light .navbar-nav .nav-link{
+        color:black;
+        font-size: 16px;
+        font-weight: 500;
+        
+    
+    }
+    .navbar-expand-lg .navbar-nav li
+    {
+     margin-top: 5px;
+     padding-bottom: 20px;
+     margin-right: 5px;
+     margin-left:5px;
+     margin-top:5px;
+    }
+
+    .active{
+
+        border-bottom: 2px solid black;
+        padding-bottom: 30px;
+    }
+    .navbar {
+        padding:0px;
+    }
+
+     @media (max-width:950px) 
+     {
+    
+    .header{
+      
+    width: 150px;
+      
+    height: 50%;
+    }
+    .navbar-toggler{
+        margin-right: 0px;
+        margin-top: 0px;
+    }
+    .navbar-brand{
+        margin:0px;
+        width: 150px;
+    }
+     
+        
+             
+    } 
+
+
+
+     @media (max-width:950px) 
+     {
+        .extrafonts
+        {
+          
+            
+            
+            font-family: New York Extra Large;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 36px;
+            line-height: 43px;
+            text-align: center;
+
+            width: 335px;
+            height: 172px;
+         margin: auto;
+         padding-top: 50px;
+         color: black;
+
+        }
+
+        .extrafonts2{
+    
+            text-align: center;
+            
+            font-weight: 400;
+            font-family: 'SF Mono Light';
+            font-size: 16px;
+            line-height: 27.2px;
+    
+            margin-top: 47px;
+                
+            padding-top: 25px;
+                
+            width: 335px;
+            } 
+        
+      }
+     @media  (max-width:950px){
+        .mainimage{
+            background-image: url(../assets/main.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+            height: 235px;
+             
+      }
+         
+     }

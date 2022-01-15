@@ -1,0 +1,36 @@
+header, nav, aside, footer , section,article{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    margin: 10px auto;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+header, nav, footer{
+    background-color: lightgrey;
+
+}
+
+aside.rside {
+    max-width: 100%;
+    width: 20%;
+    height: 350px;
+    background-color: lightgrey;
+}
+
+aside.lside {
+    max-width: 100%;
+    width: 20%;
+    height: 350px;
+    background-color: lightgrey;
+}
+
+.main {
+    max-width: 100%;
+    width: 59%;
+    height: 350px;
+    background-color: lightgrey;
+}
+

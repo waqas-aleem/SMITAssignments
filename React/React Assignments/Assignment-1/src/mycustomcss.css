@@ -1,0 +1,955 @@
+.eyeimg{
+    position: absolute;
+    top: -50px;
+    left: 47%;
+}
+.PaddingRightZero{
+    
+     padding-right:0px;
+}
+.PaddingLeftZero{
+    padding-left:0px;
+}
+
+.MaringZero{
+    margin-left: 0px;
+    margin-right: 0px;
+ 
+
+}
+.mainImage{
+    width: 100%;
+}
+
+.PaddingBottomZero{
+    padding-bottom:0px;
+}
+ .marginAuto{
+     margin:auto;
+ }
+ .marginTopMain{
+    margin-top: 50px;
+ }
+ .navbar {
+     padding-bottom: 0px;
+ }
+
+ .navBarBorder{
+     border-bottom: 1px solid lightgray;
+ }
+ .MikaImageTime{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        
+    
+        /* position: absolute;
+        top: 50px;
+        left: 95px; */
+ }
+ .positionRelative{
+     position:relative;
+ }
+ 
+ .MikaImageUpper{
+     margin-top: 20px;
+    border-radius: 56px;
+    margin-left: 20px;
+    width: 56px;
+    height: 56px;
+ }
+ .MikaImageTitle{
+     text-transform: uppercase;
+    margin-left: 15px;
+    margin-top:0px;
+    margin-bottom:0px;
+    line-height: 19px;
+ }
+
+ .MikaImageBorder{
+     margin-top: 30px;
+     margin-left: auto;
+     margin-right: auto;
+    border-top:2px solid black;
+    width: 90%;
+    /* margin: auto; */
+ }
+ .MikaTimeFont{
+    font-family: 'SF Pro Text';
+    font-weight: 400;
+    font-size: 13px;
+}
+.borderRightFav{border-right: 1px solid lightgray; padding-right: 10px; padding-left: 10px;
+    text-align: center;}
+.borderLeftFav{border-left: 1px solid lightgray; padding-right: 10px;  padding-left: 10px;
+    text-align: center;}
+
+    .FavTopMargin{
+         margin-top: 35px;
+    }
+
+
+ .MikaFavIcon{
+    border: 1px solid lightgray;
+        border-radius: 5px;
+        text-align: center;
+ }   
+  
+ 
+.navbar-default{
+
+        border-bottom:1px solid #e7e7e7;
+        background-color:white;
+
+}
+.navbar-nav {
+    margin-right: 0px;
+    margin-left: auto;
+}
+
+.active{
+    border-bottom: 2px  solid black;
+}
+ 
+   
+.mymainfont{
+              font-family: 'New York Extra Large Regular';
+             
+              font-weight: 700;             
+              line-height: 54px;
+              font-size: 54px;
+              text-align: Center;
+              margin-top: 70px;
+
+
+}
+
+
+ .newyorkfont{
+     font-family: 'New York Small Regular' ;
+     color: black;
+     font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+     
+
+ }
+ .fmaintext{
+    font-family: 'New York Small Regular' ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 23px;
+    
+
+ }
+ .fmaintextmargin{
+     margin-top: 204px;
+ }
+ .sfmono{
+    font-family: 'SF Mono Light' ;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+    height: 68px;
+    text-align: center;
+    margin-bottom: 20px;
+ }
+ 
+
+.mycustomshow{
+    display: none;
+}
+
+
+.myfooter a
+   {
+    text-align: center;
+    color: #FFFFFF;
+
+    font-family: 'SF Pro Text';
+    font-size: 16px;
+    padding-right: 27px;
+}
+
+.mycopyright{
+    font-family: 'SF Pro Text';
+    font-size: 12px;
+    color: #ffffff;
+
+}
+.socialbelow{
+    border: 1px solid lightgray;
+    border-radius: 7px;
+}
+.socialbelow1{
+    padding: 10px;
+    border-right: 1px solid lightgray;
+}
+.socialbelow2{
+    padding: 10px;
+    border-right: 1px solid lightgray;
+    border-radius: 2px;
+}
+.mikaborder{
+    border-top: 1px dashed lightgray;
+}
+.mymainfontcustom {
+    font-family: 'New York Extra Large Regular';
+    font-weight: 700;
+    line-height: 44px;
+    font-size: 44px;
+    text-align: Center;
+    margin-top: 70px;
+}
+.myfooterlogo{
+    margin-top: 152px;
+    margin-bottom: 50px;
+}
+
+ @media (max-width:490px)
+ {
+     .mylogo{
+         width: 70%;
+         
+     }
+          .sfmono{
+            margin-bottom: 50px;
+          }
+ 
+     .mymainfont{
+        font-family: 'New York Extra Large Regular';
+        
+        font-weight: 700;             
+        line-height: 54px;
+        font-size: 20px;
+        text-align: Center;
+        
+
+
+}  
+.navbar-brand {
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    font-size: 1.25rem;
+    text-decoration: none;
+    white-space: nowrap;
+    width: 70%;
+}
+.mycustomhide{
+    display: none;
+}
+     
+.sfpro{
+    font-family: 'SF Pro Text';
+    font-size: 8px;
+    font-weight: 700;
+     margin-top: 30px;
+}
+.sfpro33{
+    
+    font-size: 15px !important;
+    font-weight: normal !important;
+    font-family: 'SF Pro Text' important;
+}
+
+.sfproCustom{
+    font-family: 'SF Pro Text';
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.sfpro1{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        font-family: 'SF Pro Display';
+}
+
+.newyorkmedium{
+
+    font-family: 'New York Medium Regular';
+     
+    font-size: 16px;
+}
+
+ul {
+    list-style-image: url('assets/li.png');
+    padding-right: 0px;
+  }
+  ul li {
+      padding-left:0px;
+  }
+  .mycustomshow
+  {
+      display: block;
+  }
+   
+ }
+/* */
+.newsletter {
+    padding: 80px 0;
+    background: #19beda;
+    }
+    
+    .newsletter .content {
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 2; }
+    .newsletter .content h2 {
+    color: #243c4f;
+    margin-bottom: 40px; }
+    .newsletter .content .form-control {
+    height: 50px;
+    border-color: #ffffff;
+    border-radius:0;
+    }
+    .newsletter .content.form-control:focus {
+    box-shadow: none;
+    border: 2px solid #243c4f;
+    }
+    .newsletter .content .btn {
+    min-height: 50px; 
+    border-radius:0;
+    background: #000000;
+    color: #fff;
+    font-weight:600;
+    }
+    .input-group-btn{
+        background-color: black;
+        color:white;
+
+    }
+    .mycustombtn{
+        color:white;
+    }
+/*  */
+ .social [class*="fa fa-facebook"] {
+    background-color: #000;
+    border-radius: 30px;
+    color: #fff;
+    display: inline-block;
+    height: 20px;
+    line-height: 25px;
+    margin: auto 3px;
+    width: 20px;
+    font-size: 16px;
+    text-align: center;
+   
+}
+.social2 [class*="fa fa-whatsapp"] {
+    background-color: #000;
+    border-radius: 30px;
+    color: #fff;
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    margin: auto 3px;
+    width: 25px;
+    font-size: 16px;
+    text-align: center;
+}
+.mikaFigureCaption{
+    text-align: center;
+    font-weight: 500;
+    margin-top: 10px;
+    font-family: 'SF Pro Text';
+    font-size: 16px;
+
+}
+.favbelow{
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 30px;
+    
+}
+ 
+ 
+.newyorkmedium{
+
+    font-family: 'New York Medium Regular';
+     
+    font-size: 20px;
+}
+
+.social [class*="fa fa-whatsapp"] {
+    
+    border-radius: 30px;
+    color: black;
+    display: inline-block;
+    height: 20px;
+    line-height: 25px;
+    margin: auto 3px;
+    width: 20px;
+    font-size: 16px;
+    text-align: center;
+}
+ .sfpro{
+    font-family: 'SF Pro Text';
+    font-size: 16px;
+    font-weight: 700;
+     margin-top: 30px;
+}
+
+.sfpro1{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        font-family: 'SF Pro Display';
+}
+ul {
+    list-style-image: url('assets/li.png');
+    margin-right: 50px;
+  }
+  ul li {
+      padding-left:30px;
+  }
+
+   
+
+.gimages img {
+    width: 100%;
+}
+.gimages p {
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.footertextbold{
+    font-family: 'SF Pro Text';
+        font-size: 20px;
+        font-weight: 800;
+        color: white;
+     text-transform: uppercase;
+     line-height: 28px;
+     font-style: normal;
+     letter-spacing: 0.1em;
+    
+}
+.footertextnormal{
+    font-family: 'SF Pro Text';
+    font-size: 20px;
+    font-weight: 100;
+    color: white;
+ text-transform: uppercase;
+ line-height: 28px;
+ letter-spacing: 0.1em;
+
+}
+.mycustomfooter{
+    margin-top: 100px;
+    min-height: 464px;
+    background-color: black;
+    
+}
+.cutommymainfont {
+    font-size: 36px;
+    text-align:center;
+    padding: 50px;
+    border: 1px solid black;
+    border-top: 10px solid black;
+
+}
+.customsfpro{
+    font-family: 'SF Pro Text';
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 30px;
+    
+}
+
+.paddingzero{
+    padding:0px;
+    
+}
+.marginzero{
+    margin: 0px;
+}
+ @font-face {
+     font-family: 'SF Pro Display';
+     src: url('fonts/SFProDisplay-Regular.ttf');
+ }
+ 
+ @font-face {
+     font-family: 'SF Pro Text' ;
+     src: url('fonts/SFProText-Regular.ttf');
+ }
+ 
+ @font-face {
+    font-family: 'SF Mono Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF Mono Regular'), url('fonts/SFMonoRegular.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'SF Mono Regular Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF Mono Regular Italic'), url('fonts/SFMonoRegularItalic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'SF Mono Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF Mono Light'), url('fonts/SFMonoLight.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'SF Mono Light Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF Mono Light Italic'), url('fonts/SFMonoLightItalic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'SF Mono Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF Mono Medium'), url('fonts/SFMonoMedium.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'SF Mono Medium Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF Mono Medium Italic'), url('fonts/SFMonoMediumItalic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'SF Mono Semibold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF Mono Semibold'), url('fonts/SFMonoSemibold.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'SF Mono Semibold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF Mono Semibold Italic'), url('fonts/SFMonoSemiboldItalic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'SF Mono Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF Mono Bold'), url('fonts/SFMonoBold.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'SF Mono Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF Mono Bold Italic'), url('fonts/SFMonoBoldItalic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'SF Mono Heavy';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF Mono Heavy'), url('fonts/SFMonoHeavy.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'SF Mono Heavy Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF Mono Heavy Italic'), url('fonts/SFMonoHeavyItalic.woff') format('woff');
+    }
+
+/* #### Generated By: http://www.cufonfonts.com #### */
+
+    @font-face {
+    font-family: 'New York Extra Large Regular'; 
+    
+    font-style: normal;
+    font-weight: normal;
+    src: local('New York Extra Large Regular'), url('fonts/NewYorkExtraLargeRegular.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'New York Extra Large Regular Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('New York Extra Large Regular Italic'), url('fonts/NewYorkExtraLargeRegularItalic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'New York Extra Large Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('New York Extra Large Medium'), url('fonts/NewYorkExtraLargeMedium.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'New York Extra Large Medium Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('New York Extra Large Medium Italic'), url('fonts/NewYorkExtraLargeMediumItalic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'New York Extra Large Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('New York Extra Large Bold'), url('fonts/NewYorkExtraLargeBold.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'New York Extra Large Semibold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('New York Extra Large Semibold'), url('fonts/NewYorkExtraLargeSemibold.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'New York Extra Large Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('New York Extra Large Bold Italic'), url('fonts/NewYorkExtraLargeBoldItalic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'New York Extra Large Semibold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('New York Extra Large Semibold Italic'), url('fonts/NewYorkExtraLargeSemiboldItalic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'New York Extra Large Black';
+    font-style: normal;
+    font-weight: normal;
+    src: local('New York Extra Large Black'), url('fonts/NewYorkExtraLargeBlack.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'New York Extra Large Heavy';
+    font-style: normal;
+    font-weight: normal;
+    src: local('New York Extra Large Heavy'), url('fonts/NewYorkExtraLargeHeavy.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'New York Extra Large Black Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('New York Extra Large Black Italic'), url('fonts/NewYorkExtraLargeBlackItalic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'New York Extra Large Heavy Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('New York Extra Large Heavy Italic'), url('fonts/NewYorkExtraLargeHeavyItalic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'New York Large Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('New York Large Regular'), url('fonts/NewYorkLargeRegular.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'New York Medium Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('New York Medium Regular'), url('fonts/NewYorkMediumRegular.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'New York Small Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('New York Small Regular'), url('fonts/NewYorkSmallRegular.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'New York Large Regular Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('New York Large Regular Italic'), url('fonts/NewYorkLargeRegularItalic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'New York Medium Regular Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('New York Medium Regular Italic'), url('fonts/NewYorkMediumRegularItalic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'New York Small Regular Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('New York Small Regular Italic'), url('fonts/NewYorkSmallRegularItalic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'New York Large Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('New York Large Medium'), url('fonts/NewYorkLargeMedium.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'New York Medium Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('New York Medium Medium'), url('fonts/NewYorkMediumMedium.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'New York Small Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('New York Small Medium'), url('fonts/NewYorkSmallMedium.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'New York Large Medium Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('New York Large Medium Italic'), url('fonts/NewYorkLargeMediumItalic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'New York Medium Medium Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('New York Medium Medium Italic'), url('fonts/NewYorkMediumMediumItalic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'New York Small Medium Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('New York Small Medium Italic'), url('fonts/NewYorkSmallMediumItalic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'New York Large Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('New York Large Bold'), url('fonts/NewYorkLargeBold.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'New York Large Semibold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('New York Large Semibold'), url('fonts/NewYorkLargeSemibold.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'New York Medium Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('New York Medium Bold'), url('fonts/NewYorkMediumBold.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'New York Medium Semibold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('New York Medium Semibold'), url('fonts/NewYorkMediumSemibold.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'New York Small Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('New York Small Bold'), url('fonts/NewYorkSmallBold.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'New York Small Semibold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('New York Small Semibold'), url('fonts/NewYorkSmallSemibold.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'New York Small Semibold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('New York Small Semibold Italic'), url('fonts/NewYorkSmallSemiboldItalic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'New York Large Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('New York Large Bold Italic'), url('fonts/NewYorkLargeBoldItalic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'New York Large Semibold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('New York Large Semibold Italic'), url('fonts/NewYorkLargeSemiboldItalic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'New York Medium Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('New York Medium Bold Italic'), url('fonts/NewYorkMediumBoldItalic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'New York Medium Semibold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('New York Medium Semibold Italic'), url('fonts/NewYorkMediumSemiboldItalic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'New York Small Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('New York Small Bold Italic'), url('fonts/NewYorkSmallBoldItalic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'New York Large Black';
+    font-style: normal;
+    font-weight: normal;
+    src: local('New York Large Black'), url('fonts/NewYorkLargeBlack.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'New York Large Heavy';
+    font-style: normal;
+    font-weight: normal;
+    src: local('New York Large Heavy'), url('fonts/NewYorkLargeHeavy.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'New York Medium Black';
+    font-style: normal;
+    font-weight: normal;
+    src: local('New York Medium Black'), url('fonts/NewYorkMediumBlack.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'New York Medium Heavy';
+    font-style: normal;
+    font-weight: normal;
+    src: local('New York Medium Heavy'), url('fonts/NewYorkMediumHeavy.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'New York Small Black';
+    font-style: normal;
+    font-weight: normal;
+    src: local('New York Small Black'), url('fonts/NewYorkSmallBlack.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'New York Small Heavy';
+    font-style: normal;
+    font-weight: normal;
+    src: local('New York Small Heavy'), url('fonts/NewYorkSmallHeavy.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'New York Large Black Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('New York Large Black Italic'), url('fonts/NewYorkLargeBlackItalic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'New York Large Heavy Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('New York Large Heavy Italic'), url('fonts/NewYorkLargeHeavyItalic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'New York Medium Black Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('New York Medium Black Italic'), url('fonts/NewYorkMediumBlackItalic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'New York Medium Heavy Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('New York Medium Heavy Italic'), url('fonts/NewYorkMediumHeavyItalic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'New York Small Black Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('New York Small Black Italic'), url('fonts/NewYorkSmallBlackItalic.woff') format('woff');
+    }
+    
+
+   

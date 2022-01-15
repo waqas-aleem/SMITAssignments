@@ -1,0 +1,11 @@
+.person {
+    text-align: center;
+    box-shadow: 0px 0px 5px gray;
+    width: 500px;
+    height: 100px;
+    margin: 10px auto;
+    padding:10px;
+}
+.personLabel {
+    color: brown;
+}
