@@ -9,7 +9,8 @@ export default function Header(props) {
                     <div className="col-md-10 col-lg-8 col-xl-7">
                         <div className={props.className} >
                             <h1>{props.title}</h1>
-                            <span className="subheading">A Blog Theme by Start Bootstrap</span>
+                            <h2 className="subheading">{props.subPara}</h2>
+                            <span className={props.subHeadClass}>{props.subhead}</span>
                         </div>
                     </div>
                 </div>
