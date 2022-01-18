@@ -7,7 +7,8 @@ import Footer from './Components/Footer';
 import About from './Components/About';
 import Post from './Components/Post';
 import Contact from './Components/Contact';
-function App() {
+function App() 
+{
   return (
     <div>
 
