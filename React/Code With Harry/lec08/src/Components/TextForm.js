@@ -26,7 +26,7 @@ export default function TextForm(props) {
         <>
             <div className="container">
 
-                <div className="mb-3">
+                <div className="mb-3 mt-3">
                     <h1>{props.heading}</h1>
                     <textarea className="form-control" onChange={onChangeHandler} value={text} id="exampleFormControlTextarea1" rows="8"></textarea>
                     <button type="button" className="btn btn-primary my-3" onClick={onClickUp}>Convert to Uppercase</button>
