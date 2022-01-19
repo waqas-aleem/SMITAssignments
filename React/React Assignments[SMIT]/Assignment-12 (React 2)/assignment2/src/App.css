@@ -1,0 +1,333 @@
+.navBarText{
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  
+}
+.navbar-light .navbar-nav .nav-link.active {
+  color: #0F2B4A!important;
+}
+
+.maintext{
+font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 70px;
+line-height: 86px;
+/* or 123% */
+
+
+color: #0F2B4A;
+}
+
+.maintextp {
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 30px;
+/* or 167% */
+
+
+color: #576B81;
+}
+.sectionimage
+{
+ 
+height: 100vh;
+background-repeat: no-repeat;
+background-image: url('./assets/section.png');
+}
+.section2image{
+
+ 
+text-align: center;
+}
+.cardpriceportion{
+  font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 27px;
+/* identical to box height */
+
+
+color: #2289FF;
+}
+.cardsubpara{
+  font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: #0F2B4A;
+}
+.cardfooter{
+  font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 12px;
+
+color: #576B81;
+}
+
+.sectioncard2{
+  font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+
+color: #0F2B4A;
+}
+.sectioncard2para{
+  font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+ 
+/* identical to box height */
+
+
+color: #576B81;
+}
+.findSectionHeading{
+  font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 58px;
+/* identical to box height */
+
+text-align: center;
+
+color: #0F2B4A;
+}
+.findSectionCardHeading{
+  font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 31px;
+text-align: center;
+
+color: #0F2B4A;
+}
+.findSectionPara{
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 26px;
+/* or 162% */
+
+text-align: center;
+
+color: #576B81;
+}
+.footerHeading{
+  font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+
+color: #0F2B4A;
+}
+
+.footerpara{
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 32px;
+/* or 200% */
+
+
+color: #576B81;
+}
+.footerCopypara{
+  font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+
+color: #A2AFBD;
+}
+.talkarea{
+  background: #0F2A47;
+  height: 360px;
+}
+.talkareaHeading{
+  font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 58px;
+/* identical to box height */
+
+ 
+
+color: #FFFFFF;
+}
+.talkareaheading2{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  
+  
+  color: #FFFFFF;
+
+}
+.talkareaSubhead{
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 28px;
+ 
+
+
+color: #B6BEC8;
+}
+@font-face {
+  font-family: Roboto;
+  src: url('./Fonts/Roboto/Roboto-Regular.ttf');
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url('./Fonts/Roboto/Roboto-Medium.ttf');
+}
+@font-face {
+font-family: Inter;
+  src: url('./Fonts/Inter/Inter-SemiBold.otf');
+}
+@media only screen and (max-width: 768px)
+{
+  .maintext {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 42px;
+    color: #0F2B4A;
+}
+.maintextp {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 26px;
+  color: #576B81;
+}
+.position-absoute {
+  position: relative;
+}
+.top-50{top:0% !important} 
+.start-0{left:0 !important} 
+.translate-middle {
+  transform: translate(0%,0%)!important;
+}
+ .hiddenClass {
+   display:none !important;   
+ }
+ .sectionimage
+{
+ 
+height: 50vh;
+background-repeat: no-repeat;
+background-image: url('./assets/section.png');
+}
+
+.findSectionHeading{
+  font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+text-align: center;
+
+color: #0F2B4A;
+}
+.findSectionCardHeading{
+  font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 31px;
+text-align: center;
+
+color: #0F2B4A;
+}
+.findSectionPara{
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 11px;
+line-height: 26px;
+/* or 162% */
+
+text-align: center;
+
+color: #576B81;
+}
+.talkarea{
+  background: #0F2A47;
+  height:100%;
+}
+
+.talkareaHeading{
+  font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 58px;
+/* identical to box height */
+
+ 
+
+color: #FFFFFF;
+}
+.talkareaheading2{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 8px;
+  line-height: 19px;
+  /* identical to box height */
+  
+  
+  color: #FFFFFF;
+
+}
+.talkareaSubhead{
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 9px;
+line-height: 28px;
+ 
+
+
+color: #B6BEC8;
+}
+}
