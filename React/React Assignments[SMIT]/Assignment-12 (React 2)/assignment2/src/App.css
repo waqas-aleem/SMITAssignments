@@ -152,7 +152,7 @@ font-weight: normal;
 font-size: 16px;
 line-height: 32px;
 /* or 200% */
-
+text-decoration: none;
 
 color: #576B81;
 }
@@ -299,7 +299,7 @@ color: #576B81;
   font-family: Inter;
 font-style: normal;
 font-weight: 600;
-font-size: 24px;
+font-size: 30px;
 line-height: 58px;
 /* identical to box height */
 
@@ -311,7 +311,7 @@ color: #FFFFFF;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
-  font-size: 8px;
+  font-size: 16px;
   line-height: 19px;
   /* identical to box height */
   
@@ -323,7 +323,7 @@ color: #FFFFFF;
   font-family: Roboto;
 font-style: normal;
 font-weight: normal;
-font-size: 9px;
+font-size: 18px;
 line-height: 28px;
  
 

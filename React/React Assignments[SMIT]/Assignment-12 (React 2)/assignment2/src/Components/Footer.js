@@ -8,35 +8,48 @@ export default function Footer() {
                 <div className="row mb-5">
                     <div className="col-md-3">
                         <p className="footerHeading">Popular Searches</p>
-                        <p className="footerpara">Apartment for Rent</p>
-                        <p className="footerpara">Apartment Low to hide</p>
-                        <p className="footerpara">Offices for Buy</p>
-                        <p className="footerpara">Offices for Rent</p>
+                        <a className="footerpara" href="#">Apartment for Rent</a>
+                        <br/>
+                        <a className="footerpara" href="#">Apartment Low to hide</a>
+                        <br/>
+                        <a className="footerpara" href="#">Offices for Buy</a>
+                        <br/>
+                        <a className="footerpara" href="#">Offices for Rent</a>
+                        <br/>
                         
                     </div>
                     <div className="col-md-3">
                     <p className="footerHeading">About Us</p>
-                   
-                        <p className="footerpara">Our Story</p>
-                        <p className="footerpara">Team Members</p>
-                        <p className="footerpara">Careers</p>
-                        <p className="footerpara">Contact Us</p>
+                  
+                        <a className="footerpara" href="#">Our Story</a>
+                        <br/>
+                        <a className="footerpara" href="#">Team Members</a>
+                        <br/>
+                        <a className="footerpara" href="#">Careers</a>
+                        <br/>
+                        <a className="footerpara" href="#">Contact Us</a>
+                        <br/>
                     </div>
                     <div className="col-md-3">
                     <p className="footerHeading">Quick links</p>
-                   
-                        <p className="footerpara">Terms of Use</p>
-                        <p className="footerpara">Privacy Policy</p>
-                        <p className="footerpara">Contact Support</p>
-                        <p className="footerpara">FAQs</p>
+                        <a className="footerpara" href="#">Terms of Use</a>
+                        <br/>
+                        <a className="footerpara" href="#">Privacy Policy</a>
+                        <br/>
+                        <a className="footerpara" href="#">Contact Support</a>
+                        <br/>
+                        <a className="footerpara" href="#">FAQs</a>
                     </div>
                     <div className="col-md-3">
                     <p className="footerHeading">Support</p>
                    
-                        <p className="footerpara">Help Center</p>
-                        <p className="footerpara">Loan Support</p>
-                        <p className="footerpara">Managment</p>
-                        <p className="footerpara">Privacy Policy</p>
+                        <a className="footerpara" href="#">Help Center</a>
+                        <br/>
+                        <a className="footerpara" href="#">Loan Support</a>
+                        <br/>
+                        <a className="footerpara" href="#">Managment</a>
+                        <br/>
+                        <a className="footerpara" href="#">Privacy Policy</a>
                     </div>
                 </div>
                <div className="row mb-3">
@@ -44,7 +57,7 @@ export default function Footer() {
                        <img src={logo} alt=""/>
                    </div>
 
-                   <div className="col-md-6 text-md-end footerCopypara">
+                   <div className="col-md-6 text-md-center footerCopypara">
                        <p>&copy;2021 Besnik. All Rights Reserved</p>
                        
                    </div>

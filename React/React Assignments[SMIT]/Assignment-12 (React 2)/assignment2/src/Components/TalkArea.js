@@ -5,18 +5,18 @@ export default function TalkArea() {
     <>
       <div className=" container-fluid talkarea ">
         <div className="container-fluid">
-          <div className="row">
+          <div className="row " style={{marginTop: "65px"}}>
             <div className="col-md-12 ">
               <div className="container mt-5">
                 <div className="row">
-                  <div className="col-md-6">
+                  <div className="col-md-8">
                     <p className="talkareaHeading">Talk to a Redfin Agent</p>
                     <p className="talkareaSubhead">
                       Start your search with an expert local agent—there's no
                       pressure or obligation.
                     </p>
                   </div>
-                  <div className="col-md-6">
+                  <div className="col-md-4">
                     <p className="talkareaheading2 text-center-md">
                       Where are you searching for homes?
                     </p>
