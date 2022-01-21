@@ -26,8 +26,8 @@ export default function Navbar() {
                         </ul>
                         <form className="d-flex">
                        
-                            <button className="btn btn-outline-primary mx-3 " type="submit">Sign in</button>
-                            <button className="btn btn-primary" type="submit">Sign up</button>
+                            <button className="btn btn-outline-primary mx-3 " type="submit" style={{width: "108px",height: "40px"}}>Sign in</button>
+                            <button className="btn btn-primary" type="submit" style={{width: "108px",height: "40px"}}>Sign up</button>
                         </form>
                     </div>
                 </div>

@@ -24,8 +24,7 @@ export default function TalkArea() {
                       <div className="col-md-12 md-d-flex justify-content-md-center align-items-md-center">
                         <div
                           className="card w-75--md"
-                          style={{ backgroundColor: "#0F2A47" }}
-                        >
+                          style={{ backgroundColor: "#0F2A47" }}>
                           <div>
                             <div className="input-group mb-3">
                               <input
@@ -38,8 +37,7 @@ export default function TalkArea() {
                               <button
                                 className="btn btn-primary border-rad px-4"
                                 type="button"
-                                id="button-addon2"
-                              >
+                                id="button-addon2">
                                 <i
                                   className="fa fa-search"
                                   aria-hidden="true"

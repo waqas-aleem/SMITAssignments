@@ -206,6 +206,105 @@ line-height: 28px;
 
 color: #B6BEC8;
 }
+.tendingHeading{
+  font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 62px;
+/* or 129% */
+
+
+color: #0F2B4A;
+
+}
+.trendingPara{
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+
+color: #576B81;
+}
+.trendingDropdown{
+  font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+
+color: #576B81;
+}
+.tendingCardPrice{
+  font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+letter-spacing: 0.02em;
+
+color: #2289FF;
+}
+.trendingCardheading{
+  font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 27px;
+/* identical to box height */
+
+
+color: #0F2B4A;
+}
+.trendingSubPara{
+  font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+
+color: #576B81;
+}
+.trendingIconPara{
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+
+color: #576B81;
+}
+.trendingBtn{
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 12px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+.carousel-indicators li {
+  border-radius: 12px;
+  width: 12px;
+  height: 12px;
+  background-color: #404040;
+   
+}
+ 
 @font-face {
   font-family: Roboto;
   src: url('./Fonts/Roboto/Roboto-Regular.ttf');
