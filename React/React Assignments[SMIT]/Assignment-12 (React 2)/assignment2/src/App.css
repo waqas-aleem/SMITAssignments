@@ -297,14 +297,96 @@ text-align: center;
 
 color: #FFFFFF;
 }
-.carousel-indicators li {
+.carousel-indicators li  {
   border-radius: 12px;
   width: 12px;
   height: 12px;
-  background-color: #404040;
+   background-color: black !important;  
    
 }
+
+/* .carousel-indicators > .active {
+
+  background-color: #404040 !important;
+} */
+
+
+ .testinomialbody{
+  background: #F9FBFE;
  
+ }
+
+ .circular-img {
+  display: inline-block;
+  padding: 14px;
+  border-radius: 50%;
+  height: 250pxpx;
+  width: 250px;
+  border: 1px solid rgba(7, 133, 250,0.1);
+   
+  
+}
+
+.circular-img img {
+  display: inline-block;
+  margin-top: 8px;
+  margin-left: 2px;
+}
+
+ .testiheading{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 58px;
+  /* identical to box height */
+  
+  text-align: center;
+  margin-top: 100px;
+  color: #0F2B4A;
+ 
+ }
+ .testipara{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  
+  text-align: center;
+  
+  color: #576B81;
+ }
+ .testicard{
+  background: #FFFFFF;
+  box-shadow: 0px 65px 110px rgba(127, 154, 190, 0.06);
+  border-radius: 6px;
+  width: 571px;
+ 
+ }
+ .testipara2{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  
+  text-align: center;
+  
+  color: #576B81;
+ }
+ .testpara3{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  
+  color: #0F2B4A;
+ }
 @font-face {
   font-family: Roboto;
   src: url('./Fonts/Roboto/Roboto-Regular.ttf');
@@ -429,4 +511,18 @@ line-height: 28px;
 
 color: #B6BEC8;
 }
+
+.testiheading{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 58px;
+  /* identical to box height */
+  
+  text-align: center;
+ 
+  color: #0F2B4A;
+ 
+ }
 }

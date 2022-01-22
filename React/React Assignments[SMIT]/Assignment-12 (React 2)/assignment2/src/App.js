@@ -4,6 +4,7 @@ import FindSection from './Components/FindSection';
 import Footer from './Components/Footer';
 import TalkArea from './Components/TalkArea';
 import Trending from './Components/Trending';
+import Testinomial from './Components/Testinomial';
 
 import './App.css';
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Section/>
         <FindSection />
         <Trending/>
+        <Testinomial/>
         <TalkArea/>
         <Footer/>
       </div>
