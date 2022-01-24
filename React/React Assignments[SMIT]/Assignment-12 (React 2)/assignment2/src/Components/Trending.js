@@ -18,7 +18,7 @@ export default function Trending() {
               </p>
             </div>
            
-            <div className="col-md-6 text-end">
+            <div className="col-md-6 text-md-end">
                         <span className="dropdown me-4" >
                             <button className="btn btn-default border border-1 px-4 dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                             Property type   
@@ -31,7 +31,7 @@ export default function Trending() {
                         </span>
               <button
                 type="submit"
-                className="btn btn-primary "
+                className="btn btn-primary mt-3 mb-3"
                 style={{ width: "164px", height: "40px" }}
               >
                 See All Property

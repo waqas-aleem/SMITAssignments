@@ -57,7 +57,7 @@ export default function Footer() {
                        <img src={logo} alt=""/>
                    </div>
 
-                   <div className="col-md-6 text-md-center footerCopypara">
+                   <div className="col-md-6 text-md-center mt-3 footerCopypara">
                        <p>&copy;2021 Besnik. All Rights Reserved</p>
                        
                    </div>

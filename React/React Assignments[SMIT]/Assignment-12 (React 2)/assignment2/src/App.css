@@ -16,7 +16,7 @@
 font-family: Inter;
 font-style: normal;
 font-weight: 600;
-font-size: 70px;
+font-size: 65px;
 line-height: 86px;
 /* or 123% */
 
@@ -406,7 +406,7 @@ font-family: Inter;
     font-family: Inter;
     font-style: normal;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 30px;
     line-height: 42px;
     color: #0F2B4A;
 }
@@ -523,6 +523,13 @@ color: #B6BEC8;
   text-align: center;
  
   color: #0F2B4A;
+ 
+ }
+ .testicard{
+  background: #FFFFFF;
+  box-shadow: 0px 65px 110px rgba(127, 154, 190, 0.06);
+  border-radius: 6px;
+  width: 100%;
  
  }
 }

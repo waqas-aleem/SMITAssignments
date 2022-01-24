@@ -5,8 +5,8 @@ export default function TalkArea() {
     <>
       <div className=" container-fluid talkarea ">
         <div className="container-fluid">
-          <div className="row " style={{marginTop: "65px"}}>
-            <div className="col-md-12 ">
+          <div className="row " >
+            <div className="col-md-12 mt-5">
               <div className="container mt-5">
                 <div className="row">
                   <div className="col-md-8">
