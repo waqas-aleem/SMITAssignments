@@ -1,0 +1,33 @@
+.navbarckground{
+  background-color:  #30373F;
+}
+
+.mainbackground{
+ 
+ 
+  color: #fff;
+}
+
+.cardimage{
+  background-color: #54575C;
+}
+
+.cardtext{
+  font-size: 12px;
+}
+.abouttext{
+ background-color: #F8F9FB;
+}
+.abouttext2{
+  font-size: 12px;
+}
+
+@media only screen and (max-width: 992px) 
+{
+  .cardimage{
+    background-color: #54575C;
+    height:180px;
+  }
+  
+  
+}
