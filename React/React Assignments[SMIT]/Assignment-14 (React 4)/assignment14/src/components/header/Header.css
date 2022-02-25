@@ -1,0 +1,79 @@
+ 
+.logoText{
+font-family: 'Work Sans';
+ font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 35.19px;
+color: #2947A9;
+
+}
+
+.navText{
+font-family: 'Work Sans'!important;
+font-style: normal!important;
+font-weight: normal!important;
+font-size: 18px!important;
+line-height: 21px!important;
+color: #14171F!important;
+ margin-left: 50px!important;
+}
+
+.contactUs
+{
+    
+     
+    color: #F9995D!important;
+}
+.navMarginLeft
+{
+    margin-left:50px;
+}
+
+
+
+
+
+
+
+@font-face {
+    font-family: 'Work Sans';
+    src: url('../../assests/fonts/WorkSans-Regular.ttf');
+}
+
+@media only screen and   (max-width:990px) {
+    .logoText{
+        font-family: 'Work Sans';
+         font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 35.19px;
+        color: #2947A9;
+        
+        }
+        
+        .navText{
+        font-family: 'Work Sans'!important;
+        font-style: normal!important;
+        font-weight: normal!important;
+        font-size: 18px!important;
+        line-height: 21px!important;
+        color: #14171F!important;
+         margin-left: 0px!important;
+        }
+        
+        .contactUs
+        {
+            
+             
+            color: #F9995D!important;
+        }
+        .navMarginLeft
+        {
+            margin-left:50px;
+        }
+        
+    
+}
+
+ 

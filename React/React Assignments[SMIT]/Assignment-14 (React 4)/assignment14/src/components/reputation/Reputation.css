@@ -1,0 +1,61 @@
+.repHeading{
+    /* Heading/4 */
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+
+/* Neutral/800 */
+
+color: #292E3D;
+margin-top:60px;
+}
+
+
+.cardSize{
+    background: #FFFFFF;
+/* Neutral/100 */
+
+border: 1.4px solid #E0E3EB;
+box-sizing: border-box;
+border-radius: 4px;
+width: 292px;
+height: 197px;
+}
+
+.cardHeading{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 23px;
+ margin-top:25px;
+
+color: #3D445C;
+}
+.cardPara{
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+color: #858EAD;
+margin-top:18px;
+}
+@media only screen and (max-width:990px) 
+{
+    .cardSize{
+        background: #FFFFFF;
+    /* Neutral/100 */
+    
+    border: 1.4px solid #E0E3EB;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 100%;
+    height: 100%;
+    }
+    
+}

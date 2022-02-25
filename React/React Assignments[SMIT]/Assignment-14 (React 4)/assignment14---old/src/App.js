@@ -1,16 +1,19 @@
 //import logo from './logo.svg';
 import './App.css';
 import Home from './pages/Home/Home'
- import About from './pages/About Us/About'
-
+import Rep from './pages/Reputation/Rep'
+import AboutUs from './pages/About Us/AboutUs'
+import Form from './components/form/Form'
 function App() {
   return (
-        <div>
+        <>
+        
+          <Home/>
+          <Rep/>
+          <AboutUs/>
+          <Form/>
 
-           <Home/>
-          <About/>
-
-        </div>
+        </>
 
 
     // <div>

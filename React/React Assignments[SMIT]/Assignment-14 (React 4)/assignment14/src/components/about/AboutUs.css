@@ -1,0 +1,110 @@
+.aboutDiv{
+    background: #2947A9;
+    box-shadow: 0px 20px 24px -4px rgba(17, 24, 39, 0.1), 0px 8px 8px -4px rgba(17, 24, 39, 0.04);
+    border-radius: 2px;
+    width: 488px;
+    position: absolute;
+    top : 50px;
+    right: 0px;
+}
+
+.aboutImage{
+    width: 902px;
+    height: 669px;
+}
+
+.aboutInnerHeading{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+color: #FFFFFF;
+padding-top:50px;
+padding-left:20px;
+}
+.aboutPara
+{
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+color: #FFFFFF;
+}
+.aboutButton{
+background: #FFFFFF;
+border: 2px solid #2947A9;
+box-sizing: border-box;
+border-radius: 6px;
+width: 219px;
+height: 53px;
+margin-top:74px;
+margin-left:40px;
+}
+.aboutButtonText{
+    font-family: Work Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+
+/* Primary */
+
+color: #2947A9;
+}
+@media only screen and (max-width:1200px) 
+{
+    .hide{
+        /* display: none; */
+        width: 100%;
+        height: 100%;
+    }
+    .aboutDiv{
+        background: #2947A9;
+        box-shadow: 0px 20px 24px -4px rgba(17, 24, 39, 0.1), 0px 8px 8px -4px rgba(17, 24, 39, 0.04);
+        border-radius: 2px;
+        width: 100%;
+        position: relative!important;
+        top: 0px!important;
+        
+        }
+}
+@media only screen and (max-width:1100px) {
+    .aboutDiv{
+        background: #2947A9;
+        box-shadow: 0px 20px 24px -4px rgba(17, 24, 39, 0.1), 0px 8px 8px -4px rgba(17, 24, 39, 0.04);
+        border-radius: 2px;
+        width: 100%;
+        }
+    
+    
+        .aboutImage {
+            width: 100%;
+            height: 100%;
+        }
+
+    
+    .aboutInnerHeading{
+        font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+    padding-top: 50px;
+    padding-left: 20px;
+    }
+    .aboutPara
+{
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 23px;
+color: #FFFFFF;
+}
+   
+}
+ 
