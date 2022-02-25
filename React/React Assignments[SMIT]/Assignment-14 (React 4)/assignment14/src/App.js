@@ -3,6 +3,7 @@ import './App.css';
 import Home from './pages/Home/Home'
 import Rep from './pages/Reputation/Rep'
 import AboutUs from './pages/About Us/AboutUs'
+import Form from './components/form/Form'
 function App() {
   return (
         <>
@@ -10,6 +11,8 @@ function App() {
           <Home/>
           <Rep/>
           <AboutUs/>
+          <Form/>
+
         </>
 
 
