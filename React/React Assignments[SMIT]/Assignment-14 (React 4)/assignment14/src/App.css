@@ -1,0 +1,66 @@
+
+@font-face {
+  font-family: 'Work Sans';
+  src: url('./assests/fonts/WorkSans-Regular.ttf');
+}
+
+.cool-link {
+  display: inline-block;
+  color: #2947A9;
+  text-decoration: none;
+}
+
+.cool-link::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 3px;
+  background: #2947A9;
+  transition: width .3s;
+  margin-top: 10px;
+}
+
+.cool-link:hover::after {
+  width: 100%;
+};
+ 
+@media only screen and (max-width: 990px) 
+{
+  .logoMargin{
+      margin-left: 50px!important ;
+  }
+}
+
+@media only screen  and (max-width: 990px) 
+{  
+  .heroText
+  {
+    font-family: 'Work Sans';
+    font-style: normal!important;
+    font-weight: 600!important;
+    font-size: 50px !important;
+    line-height: 84px!important;
+    color: #292E3D!important;
+    position: relative!important;
+    top: 200px!important;
+    left: 0px !important;
+ 
+}
+   .aboutimage{
+     width: 100%;
+   }
+   
+   .aboutDiv
+   {
+     position: relative!important;
+     background-color: rgb(41, 71, 169)!important;
+     box-shadow: rgb(17 24 39 / 10%) 0px 20px 24px -4px, rgb(17 24 39 / 4%) 0px 8px 8px -4px;
+     border-radius: 2px;
+     width: 90% !important;
+     height: 250px !important;
+     transform: translate(0%,0%)!important;
+     left: 20px !important;
+     
+
+   }
+}
