@@ -1,0 +1,72 @@
+.backgroundImage{
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../assests/images/Ads.png');
+ 
+    width: 100%;
+}
+
+.mainHeading{
+    /* Heading/4 */
+
+font-family: Work Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+
+color: #FFFFFF;
+margin-top:100px;
+margin-left: 112px;
+}
+.mainPara{
+    /* Body/large */
+
+font-family: Work Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+
+color: #FFFFFF;
+margin-top:5px;
+margin-left:112px;
+}
+.buttonParent{
+    font-family: Work Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+
+/* Neutral/White */
+
+color: #FFFFFF;
+border: 1px solid #FFFFFF;
+padding: 10px;
+}
+@media only screen and (max-width:768px) 
+{
+    .mainHeading {
+        font-family: Work Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 42px;
+        color: #FFFFFF;
+         margin-top: 0px!important; 
+         margin-left: 0px !important;
+    }
+    .mainPara{
+        /* Body/large */
+    
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #FFFFFF;
+    margin-top: 0px!important; 
+         margin-left: 0px !important;
+    }
+}

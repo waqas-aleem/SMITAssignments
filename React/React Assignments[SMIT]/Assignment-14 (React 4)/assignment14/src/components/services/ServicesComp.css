@@ -1,0 +1,213 @@
+.serviceDiv{
+
+    background: #F6F8F7;
+   
+}
+
+.serviceHeading{
+ 
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+color: #292E3D;
+padding-top: 44px;
+}
+.serviceCards{
+background: #FFFFFF;
+box-shadow: 0px 0px 37px -2px rgba(17, 24, 39, 0.05);
+border-radius: 4px;
+width: 50%;
+
+display: flex;
+justify-content: center;
+
+}
+.serviceCardBlue{
+    background: #2947A9;
+box-shadow: 0px 0px 37px -2px rgba(17, 24, 39, 0.05);
+border-radius: 4px;
+}
+ .serviceCardLine{
+    background: #E0E3EB;
+    width:60px;
+    height: 2px;
+    margin-top: 20px;
+    
+ }
+ .serviceCardHeading{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    
+    /* Primary */
+    
+    color: #2947A9;
+    padding-bottom: 50px;
+ }
+ .serviceCardHeading2{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    padding-bottom: 50px;
+    /* Neutral/White */
+    
+    color: #FFFFFF;
+ }
+ .imgDiv{    margin: auto;
+    margin-top: 16px;
+    margin-bottom: 16px;
+   }
+
+   .expHeading{
+      /* Heading/2 */
+
+font-family: Work Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 60px;
+line-height: 70px;
+margin-top:100px;
+
+/* Primary */
+
+color: #2947A9;
+   }
+   .expPara{
+      /* Body/medium */
+
+font-family: Work Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+margin-top:40px;
+/* Neutral/600 */
+
+color: #525B7A;
+   }
+   .expButton{
+      background: #2947A9;
+      border-radius: 2px;
+      padding: 16px 20px;
+      border:none;
+      font-family: Work Sans;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 21px;
+      text-align: center;
+      margin-top: 50px;
+      /* Neutral/White */
+
+      color: #FFFFFF;
+   }
+   .expCardHeading{
+      font-family: Work Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 72px;
+line-height: 84px;
+display: flex;
+align-items: flex-end;
+color: #292E3D;
+
+   }
+   .expCard{
+      background: #FFFFFF;
+border: 1px solid #FFFFFF;
+box-sizing: border-box;
+box-shadow: 0px 12px 16px -4px rgba(17, 24, 39, 0.1), 0px 4px 6px -2px rgba(17, 24, 39, 0.05);
+border-radius: 4px;
+width: 361px;
+ 
+   }
+   
+   .expCardPara
+{
+font-family: Work Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px; 
+color: #667299;
+border-left: 6px solid #F9995D;
+margin-left: 15px;
+padding-left:10px;
+}
+.cardPosition1{
+   position:absolute!important;
+   top:-60px!important;
+   left:-10px!important;
+}
+.cardPosition2 {
+   position: absolute!important;
+   top: -40px!important;
+   right: 90px!important;
+}
+.cardPosition3 {
+   position: absolute!important;
+   top: 68px!important;
+   right: 82px!important;
+   bottom: 68px;
+}
+@media only screen and (max-width:990px) 
+{
+   .serviceCards {
+       
+      width: 100%!important;
+      height: auto;
+      
+  }
+  .expHeading {
+   font-family: Work Sans;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 40px!important;
+   line-height: 70px;
+   margin-top: 100px;
+   color: #2947A9;
+}
+.expCard{
+   background: #FFFFFF;
+border: 1px solid #FFFFFF;
+box-sizing: border-box;
+box-shadow: 0px 12px 16px -4px rgba(17, 24, 39, 0.1), 0px 4px 6px -2px rgba(17, 24, 39, 0.05);
+border-radius: 4px;
+width: 100%;
+
+}
+
+.cardPosition1{
+   position:absolute!important;
+   top:-60px!important;
+   left:-10px!important;
+}
+.cardPosition2 {
+   position: absolute!important;
+   top: 185px!important;
+   right: 2px!important;
+}
+.cardPosition3 {
+   position: absolute!important;
+   top: 105px!important;
+   right: 2px!important;
+}
+.cardPosition4 {
+   position: absolute!important;
+   top: 100px!important;
+   right: 2px!important;
+}
+.hide{
+   display: none!important;
+}
+}

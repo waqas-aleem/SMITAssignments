@@ -3,7 +3,7 @@ import React from 'react'
 export default function Reputation() {
   return (
     <div>
-      <div className="container mt-5 mb-5">
+      <div className="container bg-transparent mt-5 mb-5">
         <div className="row">
           <div className="col-md-12">
 

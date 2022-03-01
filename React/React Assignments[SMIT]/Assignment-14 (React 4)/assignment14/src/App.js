@@ -2,14 +2,22 @@
 import './App.css';
 import Home from './pages/Home/Home'
  import About from './pages/About Us/About'
-
+ import Footer from './pages/Footer/Footer'
+ import Services from './pages/Services/Services'
+import BottomComp from './components/bottom/BottomComp.js';
+import Form from './components/form/Form';
+import ConsultationComp from './consult/ConsultationComp';
 function App() {
   return (
         <div>
 
            <Home/>
           <About/>
-
+          <Services/>
+          <ConsultationComp/>
+          <Form/>
+          <BottomComp/>
+          <Footer/>
         </div>
 
 

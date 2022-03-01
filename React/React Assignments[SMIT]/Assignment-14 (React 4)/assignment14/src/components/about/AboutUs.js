@@ -4,10 +4,10 @@ import AboutImage from '../../assests/images/about_main.png'
 export default function AboutUs() {
     return (
         <div>
-            <div className='container mt-5'>
+            <div className='container mt-5 bg-transparent aboutMarginTop'>
             <div className='row position-relative'>
                 <div className='col-md-8'>
-                <img src={AboutImage} alt="About Main" className='aboutImage hide' />
+                <img src={AboutImage} alt="About Main" className='aboutImage' />
 
                 </div>
                 <div className='col-md-4'>

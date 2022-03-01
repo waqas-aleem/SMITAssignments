@@ -22,7 +22,51 @@ margin-left:112px;
 margin-top: 239px;
 
 }
+.heroDivButton{
 
+    width: 416px;
+    height: 190px;
+    background: #3559C7;
+border-radius: 2px 2px 0px 0px;
+}
+.heroDivHeading{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+color: #FFFFFF;
+padding-top:20px;
+
+}
+.heroDivPara{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+color: #FFFFFF;
+}
+ .heroButton{
+    background: #292E3D;
+    width: 208px;
+height: 40px;
+font-family: Work Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+border-radius: 0px!important;
+/* Neutral/White */
+
+color: #FFFFFF;
+ }
+ .heroButton:hover{
+     color:white;
+ }
 @media only screen and (max-width:990px) 
 {
     .heroHeading{
@@ -37,5 +81,49 @@ margin-top: 239px;
         margin-top: 150px!important;
         
         }
+ 
+.heroDivButton{
+width: 100%;
+background: #3559C7;
+border-radius: 2px 2px 0px 0px;
+}
+.heroDivHeading{
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 23px;
+text-align: center;
+color: #FFFFFF;
+padding-top:20px;
 
+}
+.heroDivPara{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 28px;
+text-align: center;
+color: #FFFFFF;
+}
+ .heroButton{
+    background: #292E3D;
+    width: 50%!important;
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+color: #FFFFFF;
+border-radius: 0px!important;
+ }
+ .heroButton:hover{
+     color:white;
+ }
+ .heroPostion{
+     left:0px !important;
+
+ }
 }
