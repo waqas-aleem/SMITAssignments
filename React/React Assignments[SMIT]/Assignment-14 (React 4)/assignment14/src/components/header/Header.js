@@ -5,7 +5,7 @@ import './Header.css'
 export default function Header() {
     return (
         <div>
-            <nav className="navbar navbar-expand-lg navbar-light bg-white">
+            <nav className="navbar navbar-expand-lg navbar-light bg-white fixed-top">
                 <div className="container-fluid" >
                     <a className="navbar-brand ms-md-5" href="#"><img src={logo} alt="Logo" />
                         <span className='logoText'>TheBox</span></a>
