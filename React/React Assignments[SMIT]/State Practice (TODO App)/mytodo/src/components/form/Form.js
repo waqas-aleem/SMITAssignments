@@ -62,12 +62,12 @@ export default function Form() {
   }
   const onUpdateHandler = (item) => 
   {
-    setClassName(item.uid)
+    setUpdateUid(item.uid)
     setClassName(item.className)
     setUserName(item.name)
     setRollNo(item.rollNo)
     setEmail(item.email)
-    setUpdateUid(item.uid)
+    
     setIsUpdate(true)
   }
   const onCtaUpdate = () => 
