@@ -70,6 +70,11 @@ function App() {
     let newEmployee = employees.filter((e) => e.uid !== item.uid)
 
     setEmployees(newEmployee)
+    setformHeader('Add Employee')
+    setfirstName('')
+    setlastName('')
+    setEmail('')
+    setIsUpdate(false)
 
   }
   const onUpdateHandler = (item) => {
