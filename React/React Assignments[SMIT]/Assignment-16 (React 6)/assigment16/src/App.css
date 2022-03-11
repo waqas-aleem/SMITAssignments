@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:weight@100;200;300;400;500;600;700;800&display=swap");
+
+body {
+    background-color: #eee;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300
+}
+
+ 
+
+.search {
+    position: relative;
+    
+}
+
+.search input {
+  
+    text-indent: 35px;
+    width: 100%;
+    
+}
+
+.search input:focus {
+    box-shadow: none;
+    
+}
+
+.search .fa-search {
+    position: absolute;
+    top: 10px;
+    left: 16px;
+    transform: rotate(87deg);
+    font-size: 20px;
+    color: #0078D7;
+}
+
+.fs-5 {
+  font-size: 2rem!important;
+  margin-top: 50%;
+}
