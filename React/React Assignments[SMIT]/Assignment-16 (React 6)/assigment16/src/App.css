@@ -1,12 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:weight@100;200;300;400;500;600;700;800&display=swap");
-
-body {
-    background-color: #eee;
-    font-family: "Poppins", sans-serif;
-    font-weight: 300
-}
-
- 
+ .navbarbg{
+     background-color: #0078D7;
+ }
+ .profilebtn{
+    border: 1px solid white;
+    background-color: #0078D7;
+    color: white;
+    border-radius: 50px;
+    font-size: 20px;
+ }
 
 .search {
     position: relative;
@@ -16,13 +17,13 @@ body {
 .search input {
   
     text-indent: 35px;
-    width: 100%;
-    
+    width: 500px;
+     background-color : #c7def6;
 }
 
 .search input:focus {
     box-shadow: none;
-    
+    background-color : #c7def6;
 }
 
 .search .fa-search {
@@ -36,5 +37,43 @@ body {
 
 .fs-5 {
   font-size: 2rem!important;
-  margin-top: 50%;
+ 
+}
+@media only screen and (max-width:768px) 
+{
+    .navbarbg{
+        background-color: #0078D7;
+    }
+    
+   
+   .search {
+       position: relative;
+       
+   }
+   
+   .search input {
+     
+       text-indent: 35px;
+       width: 100%;
+       background-color : #c7def6;
+   }
+   
+   .search input:focus {
+       box-shadow: none;
+       background-color : #c7def6;
+   }
+   
+   .search .fa-search {
+       position: absolute;
+       top: 10px;
+       left: 16px;
+       transform: rotate(87deg);
+       font-size: 20px;
+       color: #0078D7;
+   }
+   
+   .fs-5 {
+     font-size: 2rem!important;
+    
+   }  
 }
