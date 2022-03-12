@@ -8,7 +8,7 @@ export default function NavBar() {
                     <a className="navbar-brand" href="#"><button style={{ border: "none", backgroundColor: "#0078D7", color: "white" }}>
                         <i className='bx bxs-grid' ></i> <span className='mx-md-3'>To Do</span></button></a>
 
-                    <form className="search m-auto">
+                    <form className="search m-auto ">
                         <input className="form-control me-2" type="search" aria-label="Search" />
                         <i class="fal fa-search"></i>
 
@@ -40,7 +40,7 @@ export default function NavBar() {
                         </button>
                     </div>
 
-                    <button type='button' className='profilebtn'> RS </button>
+                    <button type='button' className='profilebtn' style={{padding:"5px 10px 6px"}}> RS </button>
 
                 </div>
             </nav>

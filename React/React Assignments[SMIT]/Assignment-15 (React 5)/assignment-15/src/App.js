@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import './App.css';
 import Button from './components/buttons/Button';
 import { v4 as uuidv4 } from 'uuid';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 const employeeTempDate = [
   {
     uid:uuidv4(),
@@ -43,11 +45,20 @@ function App() {
     setlastName('')
     setEmail('')
     setIsUpdate(false)
+    setisView(false)
   }
 
   const onSubmitHandler = () => {
     if (!firstName || !lastName || !email) {
-      alert("All Inputs are required!")
+      toast.error('All Fields are required', {
+        position: "top-right",
+        autoClose: 1000,
+        hideProgressBar: true,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true
+      
+        });  
       return;
     }
 
@@ -63,6 +74,16 @@ function App() {
     setlastName('')
     setEmail('')
     setIsUpdate(false)
+    toast.success('Added successfully!', 
+    {
+      position: "top-right",
+      autoClose: 1000,
+      hideProgressBar: true,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true
+    
+      });   
 
   }
   const onDeleteHandler = (item) => {
@@ -75,6 +96,16 @@ function App() {
     setlastName('')
     setEmail('')
     setIsUpdate(false)
+    
+    toast.info('Deleted successfully!', {
+      position: "top-right",
+      autoClose: 1000,
+      hideProgressBar: true,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true
+    
+      });  
 
   }
   const onUpdateHandler = (item) => {
@@ -85,6 +116,7 @@ function App() {
     setIsUpdate(true)
     setisAdd(true)
     setformHeader('Employee Data Update')
+    
   }
 
   const onCtaUpdate = () => {
@@ -112,7 +144,15 @@ function App() {
     setIsUpdate(false)
 
     setisView(false)
-
+    toast.info('Updated successfully!', {
+      position: "top-right",
+      autoClose: 1000,
+      hideProgressBar: true,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true
+    
+      }); 
   }
 
   const onViewClick = (item) => {
@@ -128,11 +168,12 @@ function App() {
   }
   return (
     <div>
+       <ToastContainer theme="colored"/>
       <div className="container mt-5">
         <div className="row">
           <div className="col-lg-12">
             {isAdd ?
-              <div><Button onClick={onAddHandler} classes={"btn btn-primary"} text={"Hide Form"} />
+              <div><Button onClick={onAddHandler} classes={"btn btn-dark"} text={"Hide Form"} />
                 <div className="container mt-1">
                   <div className='row'>
                     <div className="col-lg-8 m-auto">
@@ -167,8 +208,15 @@ function App() {
                               {
                                 !isView ?
                                 <button type="button" onClick={onSubmitHandler} className="btn btn-success">Submit</button>
-                                :''
-                              }
+                                :
+                                                               
+                                <button type="button" onClick={()=>setisAdd(false)} className="btn btn-info">Cancel</button>
+                                  
+                                 
+                                
+                              
+                                                            
+                                }
                               </>
                             
                             
@@ -190,6 +238,8 @@ function App() {
 
               :
               <Button onClick={onAddHandler} classes={"btn btn-primary"} text={"Add Employee"} />
+
+               
 
             }
 
