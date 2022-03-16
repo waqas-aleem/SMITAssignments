@@ -10,21 +10,21 @@ export default function NavBar() {
 
                     <form className="search m-auto ">
                         <input className="form-control me-2" type="search" aria-label="Search" />
-                        <i class="fal fa-search"></i>
+                        <i className="fal fa-search"></i>
 
                     </form>
                     <div className='mx-md-3'>
                         <button style={{
                             border: "none", backgroundColor: "#0078D7", color: "white",
                             fontSize: "20px", height: "100%"
-                        }}><i class="fal fa-cog"></i></button>
+                        }}><i className="fal fa-cog" style={{fontSize: "25px"}}></i></button>
                     </div>
                     <div className='mx-md-3'>
                         <button style={{
                             border: "none", backgroundColor: "#0078D7", color: "white",
                             fontSize: "20px", height: "100%"
                         }}>
-                            <i class='bx bx-question-mark' ></i>
+                            <i className='bx bx-question-mark' style={{fontSize: "25px"}} ></i>
                         </button>
                     </div>
                     <div className='mx-md-3'>
@@ -32,10 +32,10 @@ export default function NavBar() {
                             border: "none", backgroundColor: "#0078D7", color: "white",
                             fontSize: "20px", height: "100%"
                         }}>
-                            <i class="fal fa-megaphone"></i>
-                            <span class="translate-middle badge rounded-pill bg-dark">
+                            <i className="fal fa-megaphone" style={{fontSize: "25px"}}></i>
+                            <span className="translate-middle badge rounded-pill bg-dark">
                                 3
-                                <span class="visually-hidden">unread messages</span>
+                                <span className="visually-hidden">unread messages</span>
                             </span>
                         </button>
                     </div>
