@@ -36,17 +36,136 @@ export default function RightAside() {
                 </div>
 
             </div>
+           
             <div className="container-fluid" style={{ backgroundColor: "#f3f2f1" }}>
                 <div className="row">
-                    <div className="container">
-                        <div className="row">
-                        <div className="col-md-12 mt-1 shadow p-3 mb-5 bg-body">
-                    <i className='bx bx-sun '></i>
+                    <div className="col-md-12 mt-2 shadow p-3 mb-2 bg-body">
+                        <div className="container-fluid">
+                            <div className="row">
+                                <div className="col-md-2">
+                                <i className='bx bx-sun ' style={{ paddingTop: "5px", color: "#416de1",    fontSize: "18px" }}></i>
+                                    
+
+                                </div>
+                                <div className="col-md-10">
+                                    <span style={{ fontSize: "18px", fontWeight: "500", color: "#416de1"}}>Add to My Day</span>
+                                </div>
+ 
+                            </div>
+                            
+                        </div>
 
                     </div>
+                </div>
+
+            </div>
+
+            <div className="container-fluid" style={{ backgroundColor: "#f3f2f1" }}>
+                <div className="row">
+                    <div className="col-md-12 mt-2 shadow p-3 mb-2 bg-body">
+                        <div className="container-fluid">
+                            <div className="row">
+                                <div className="col-md-2">
+                          
+                                <i class='bx bx-bell' style={{ paddingTop: "5px", color: "grey",    fontSize: "20px" }}></i>
+
+                                </div>
+                                <div className="col-md-10">
+                                    <span style={{ fontSize: "18px", fontWeight: "500", color: "grey"}}>Remind me</span>
+                                    <hr  className='mt-3'/>
+                                </div>
+                                    
+                            </div>
+                            <div className="row mt-4">
+                                <div className="col-md-2">
+                                <i class="far fa-calendar-alt" style={{ paddingTop: "5px", color: "grey",    fontSize: "20px" }}></i>
+                         
+
+                                </div>
+                                <div className="col-md-10">
+                                    <span style={{ fontSize: "18px", fontWeight: "500", color: "grey"}}>Add due date</span>
+                                    <hr  className='mt-3'/>
+                                </div>
+                                    
+                            </div>
+                            <div className="row mt-4">
+                                <div className="col-md-2">
+                                
+                                <i class="icon fontIcon ms-Icon ms-Icon--RecurringEvent iconSize-24" aria-hidden="true" style={{  color: "grey",    fontSize: "20px" }}></i>
+
+                                </div>
+                                <div className="col-md-10">
+                                    <span style={{ fontSize: "18px", fontWeight: "500", color: "grey"}}>Repeat</span>
+                                    
+                                </div>
+                                    
+                            </div>
                         </div>
+
                     </div>
-                  
+                </div>
+              
+            </div>
+            <div className="container-fluid" style={{ backgroundColor: "#f3f2f1" }}>
+                <div className="row">
+                    <div className="col-md-12 mt-2 shadow p-3 mb-2 bg-body">
+                        <div className="container-fluid">
+                            <div className="row">
+                                <div className="col-md-2">
+ 
+                                <i class="far fa-tag" style={{ paddingTop: "5px", color: "grey",    fontSize: "20px", transform:"rotate(60deg)"}}></i>
+
+                                </div>
+                                <div className="col-md-10">
+                                    <span style={{ fontSize: "18px", fontWeight: "500", color: "grey"}}>Pick a category</span>
+                                </div>
+ 
+                            </div>
+                            
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <div className="container-fluid" style={{ backgroundColor: "#f3f2f1" }}>
+                <div className="row">
+                    <div className="col-md-12 mt-2 shadow p-3 mb-2 bg-body">
+                        <div className="container-fluid">
+                            <div className="row">
+                                <div className="col-md-2">
+ 
+                                {/* <i class="far fa-tag" ></i> */}
+                                <i class="far fa-paperclip" style={{ paddingTop: "5px", color: "grey",    fontSize: "20px", transform:"rotate(-45deg)"}}></i>
+                                </div>
+                                <div className="col-md-10">
+                                    <span style={{ fontSize: "18px", fontWeight: "500", color: "grey"}}>Add file</span>
+                                </div>
+ 
+                            </div>
+                            
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div className="container-fluid" style={{ backgroundColor: "#f3f2f1" }}>
+                <div className="row">
+                    <div className="col-md-12 mt-2 shadow p-3 mb-2 bg-body">
+                        <div className="container-fluid">
+                            <div className="row p-3">
+                                
+                                <div className="col-md-12 mb-2 ">
+                                    <span   style={{ fontSize: "18px", fontWeight: "500", color: "grey"}}>Add Note</span>
+                                </div>
+ 
+                            </div>
+                            
+                        </div>
+
+                    </div>
                 </div>
 
             </div>
