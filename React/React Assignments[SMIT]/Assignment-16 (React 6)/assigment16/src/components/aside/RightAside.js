@@ -9,8 +9,12 @@ export default function RightAside() {
                         <div className="container-fluid">
                             <div className="row">
                                 <div className="col-md-2">
+                                <div className="round" style={{ marginTop:"5px", color: "#416de1" }}>
+                                                <input type="checkbox" id="c2" />
+                                                <label htmlFor="c2"></label>
+                                            </div>
 
-                                    <i className="far fa-circle" style={{ paddingTop: "8px", color: "#416de1" }}></i>
+                                
 
                                 </div>
                                 <div className="col-md-8">
@@ -67,7 +71,7 @@ export default function RightAside() {
                             <div className="row">
                                 <div className="col-md-2">
                           
-                                <i class='bx bx-bell' style={{ paddingTop: "5px", color: "grey",    fontSize: "20px" }}></i>
+                                <i className='bx bx-bell' style={{ paddingTop: "5px", color: "grey",    fontSize: "20px" }}></i>
 
                                 </div>
                                 <div className="col-md-10">
@@ -78,7 +82,7 @@ export default function RightAside() {
                             </div>
                             <div className="row mt-4">
                                 <div className="col-md-2">
-                                <i class="far fa-calendar-alt" style={{ paddingTop: "5px", color: "grey",    fontSize: "20px" }}></i>
+                                <i className="far fa-calendar-alt" style={{ paddingTop: "5px", color: "grey",    fontSize: "20px" }}></i>
                          
 
                                 </div>
@@ -91,7 +95,7 @@ export default function RightAside() {
                             <div className="row mt-4">
                                 <div className="col-md-2">
                                 
-                                <i class="icon fontIcon ms-Icon ms-Icon--RecurringEvent iconSize-24" aria-hidden="true" style={{  color: "grey",    fontSize: "20px" }}></i>
+                                <i className="icon fontIcon ms-Icon ms-Icon--RecurringEvent iconSize-24" aria-hidden="true" style={{  color: "grey",    fontSize: "20px" }}></i>
 
                                 </div>
                                 <div className="col-md-10">
@@ -113,7 +117,7 @@ export default function RightAside() {
                             <div className="row">
                                 <div className="col-md-2">
  
-                                <i class="far fa-tag" style={{ paddingTop: "5px", color: "grey",    fontSize: "20px", transform:"rotate(60deg)"}}></i>
+                                <i className="far fa-tag" style={{ paddingTop: "5px", color: "grey",    fontSize: "20px", transform:"rotate(60deg)"}}></i>
 
                                 </div>
                                 <div className="col-md-10">
@@ -135,8 +139,8 @@ export default function RightAside() {
                             <div className="row">
                                 <div className="col-md-2">
  
-                                {/* <i class="far fa-tag" ></i> */}
-                                <i class="far fa-paperclip" style={{ paddingTop: "5px", color: "grey",    fontSize: "20px", transform:"rotate(-45deg)"}}></i>
+                                {/* <i className="far fa-tag" ></i> */}
+                                <i className="far fa-paperclip" style={{ paddingTop: "5px", color: "grey",    fontSize: "20px", transform:"rotate(-45deg)"}}></i>
                                 </div>
                                 <div className="col-md-10">
                                     <span style={{ fontSize: "18px", fontWeight: "500", color: "grey"}}>Add file</span>
