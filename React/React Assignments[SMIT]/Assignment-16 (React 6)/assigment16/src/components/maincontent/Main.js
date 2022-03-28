@@ -2,17 +2,17 @@ import React, { useState } from 'react'
 import { v4 as uuidv4 } from 'uuid';
 const data = [
     {
-        uid:uuidv4(),
+        uid: uuidv4(),
         taskName: 'test1'
     },
     {
-        uid:uuidv4(),
+        uid: uuidv4(),
         taskName: "test2"
     }
 ]
 const dataComplete = [{
 
-    compName:      "test3",
+    compName: "test3",
     checkedStatus: true
 
 }]
@@ -30,21 +30,20 @@ function Main() {
     const [constData, setconstData] = useState(data)
     const [addTaskName, setaddTaskName] = useState('')
     const [completeData, setcompleteData] = useState(dataComplete)
- 
-    const onUncheckBox = ()=>
-    {
-        
-             setIsChecked(false)
-          
+
+    const onUncheckBox = () => {
+
+        setIsChecked(false)
+
 
 
     }
-        
+
 
 
     const onAddHandler = () => {
         let addData = {
-           
+
             taskName: addTaskName,
 
         }
@@ -60,7 +59,7 @@ function Main() {
             let newData =
             {
                 compName: item.taskName,
-                checkedStatus:true
+                checkedStatus: true
             }
 
             let newTasks = constData.filter((e) => e.uid !== item.uid)
@@ -68,7 +67,7 @@ function Main() {
             counter++;
             setcompleteData([...completeData, newData])
             setisComplete(false)
-             
+
 
 
         }
@@ -214,11 +213,64 @@ function Main() {
             <hr />
             <div className='container m-0 p-0' >
                 <div className="row mt-3">
-                    <div className="col-md-1 d-flex justify-content-center align-items-center">
-                        <i className="far fa-chevron-down "></i>
+                    <div className="col-md-1">
+                        <button className="accordion-button p-0 m-0 bg-transparent shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+
+                        </button>
+                        {/* <i className="far fa-chevron-down "></i> */}
                     </div>
                     <div className="col-md-11">
                         <span><b className='me-2'>Completed</b> {counter} </span>
+                        <div className="accordion" id="accordionExample">
+                            <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div className="accordion-body p-0 m-0">
+                                    <div className="container">
+                                        {completeData.map((item, index) => {
+                                            return (
+                                                <div key={index}>
+
+                                                    <div className="row mt-3">
+                                                        <div className="col-md-1 d-flex justify-content-center align-items-center">
+
+
+
+
+                                                            <div className="round">
+                                                                <input type="checkbox" checked={item.checkedStatus}
+                                                                    id={"C" + index}
+                                                                    onChange={() => onUncheckBox} />
+                                                                <label htmlFor={"C" + index}></label>
+                                                            </div>
+
+
+
+
+                                                        </div>
+                                                        <div className="col-md-10" >
+                                                            <span style={{ fontSize: "18px" }}><s>{item.compName}</s></span>
+                                                            <br />
+                                                            <span style={{ fontSize: "12px" }}>Tasks</span>
+                                                        </div>
+                                                        <div className="col-md-1 d-flex justify-content-center align-items-center">
+                                                            <button type='button' className='btn btn-default'>
+                                                                <i className="fal fa-star"></i>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+
+
+                                                </div>
+                                            )
+                                        }
+
+                                        )
+                                        }
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
 
@@ -229,48 +281,7 @@ function Main() {
 
 
 
-            <div className="container">
-                {completeData.map((item, index) => {
-                    return (
-                        <div key={index}>
 
-                            <div className="row mt-3">
-                                <div className="col-md-1 d-flex justify-content-center align-items-center">
-                                     
-
-
-
-                                        <div className="round">
-                                            <input type="checkbox" checked={item.checkedStatus}
-                                                id={"C" + index}
-                                                onChange={()=>onUncheckBox} />
-                                            <label htmlFor={"C" + index}></label>
-                                        </div>
-                                   
-
-
-
-                                </div>
-                                <div className="col-md-10" >
-                                    <span style={{ fontSize: "18px" }}><s>{item.compName}</s></span>
-                                    <br />
-                                    <span style={{ fontSize: "12px" }}>Tasks</span>
-                                </div>
-                                <div className="col-md-1 d-flex justify-content-center align-items-center">
-                                    <button type='button' className='btn btn-default'>
-                                        <i className="fal fa-star"></i>
-                                    </button>
-                                </div>
-                            </div>
-
-
-                        </div>
-                    )
-                }
-
-                )
-                }
-            </div>
             <hr />
             <hr />
             <hr />
